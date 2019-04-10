@@ -1,0 +1,12 @@
+{
+  "name": "play-shaodw",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "shadow-cljs": "2.8.29"
+  },
+  "dependencies": {
+    "andare": "^0.10.0",
+    "mqtt": "^2.18.8"
+  }
+}
