@@ -6,5 +6,6 @@
 ;; `find com/cognitect/transit-cljs/0.8.256 | cpio -p -d ...`
 ;; `find com/cognitect/transit-js/0.8.846 | cpio -p -d ...`
 {:deps
- {com.cognitect/transit-cljs {:mvn/version "0.8.256"}
+ {org.clojure/clojurescript {:mvn/version "1.10.516"}
+  com.cognitect/transit-cljs {:mvn/version "0.8.256"}
   com.cognitect/transit-js {:mvn/version "0.8.846"}}}

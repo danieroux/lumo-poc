@@ -15,3 +15,7 @@ jars-unpacked: clean
 	unzip -o -d 3rd-party libs/com/cognitect/transit-js/0.8.846/transit-js-0.8.846.jar
 	unzip -o -d 3rd-party libs/com/cognitect/transit-cljs/0.8.256/transit-cljs-0.8.256.jar
 	lumo --verbose --classpath src:3rd-party build.cljs
+
+# Works
+with-clj: clean
+	clj -m cljs.main --target node --output-to dist/titan-gateway.js -c tech.matterindustries.titan.gateway.core

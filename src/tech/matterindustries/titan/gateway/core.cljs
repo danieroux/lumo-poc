@@ -3,5 +3,4 @@
             [cognitect.transit :as t]
             [mqtt]))
 
-(t/write (t/writer :json) {:namespace/my-key "woot"})
-(println "Winnign")
+(println (t/write (t/writer :json-verbose) {:namespace/my-key "woot"}))
